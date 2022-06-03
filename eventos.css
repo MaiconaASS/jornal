@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+#header {
+  background-color: slategrey;
+  box-sizing: border-box;
+  height: 70px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+}
+#LogoJornal {
+  margin-top: 15px;
+}
+#menu ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: maroon;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+#menu a {
+  display: block;
+  padding: 6px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+.topico_principal {
+  font-size: 50px;
+}
+#VideoNoticia {
+  float: left;
+  border: transparent thin solid;
+  padding: 5px;
+  margin: 0px 10px 10px 0;
+}
